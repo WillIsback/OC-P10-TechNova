@@ -5,11 +5,17 @@ description = "Projet TechNova pour analyser les causes de démission"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "ruff>=0.14.7",
+    "ruff",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "numpy",
+    "scipy",
+    "scikit-learn"
 ]
 
 [dependency-groups]
 dev = [
-    "ipykernel>=7.1.0",
-    "uv>=0.9.15",
+    "ipykernel",
+    "uv",
 ]
